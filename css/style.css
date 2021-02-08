@@ -47,6 +47,11 @@ h1,h2,h3,h4{
 
 }
 
+.btn--long {
+    padding: 0 80px; 
+    background-color: transparent;
+}
+
 
 /* |==============|
    |  HEADER TOP  |
@@ -286,4 +291,61 @@ color: #000;
 
     margin-bottom: 50px;
 
+}
+
+
+/* |==============|
+   | REGISTRATION |
+   |==============| */
+
+.registration {
+    background-color : #282828;
+    padding: 100px 0;
+
+    position: relative;
+}
+.registration__image-left {
+    width: 100%;
+    max-width:260px;
+    max-height: 260px;
+
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.registration__image-right{
+    width: 100%;
+    max-width:260px;
+    max-height: 200px;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+.registration__inner {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    border:3px solid #C4C4C4;
+    z-index: 1;
+
+    padding: 0 285px;
+}
+.registration__title {
+    display: inline;
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    text-align: center;
+}
+.registration__text {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.registration__form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
 }
